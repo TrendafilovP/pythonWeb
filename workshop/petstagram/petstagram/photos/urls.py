@@ -1,6 +1,5 @@
-from importlib.resources import path
-from xml.etree.ElementInclude import include
-from petstagram.petstagram.photos import views
+from django.urls import path, include
+from petstagram.photos import views
 
 urlpatterns = [
     path('add/', views.photo_add, name='photo-add'),

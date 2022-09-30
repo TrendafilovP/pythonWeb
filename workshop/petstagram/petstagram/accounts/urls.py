@@ -1,5 +1,5 @@
 from django.urls import path, include
-from petstagram.petstagram.accounts import views
+from petstagram.accounts import views
 
 
 urlpatterns = [
